@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-color: azure;
+    
+    
+
+    
+}
+
+.logInfo{
+   
+   display: flex;
+   flex-direction: column;
+
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid silver ;
+    border-radius: 5px;
+    height: 330px;
+    width: 240px;
+    padding: 50px;
+    background-color: white;
+
+}
+
+
+.input{
+    width: 250px;
+    height: 30px;
+    margin: 3px;
+    padding: 5px;
+    background-color: azure;
+    border-style: groove;
+    border-radius: 3px;
+
+}
+
+.title{
+    font-family: "Harlow Solid Italic", freestyle serif ;
+    font-size: 30px;
+    
+}
+
+.signup{
+    display: flex;
+    margin-top: 5px;
+    border: 1px solid silver ;
+    border-radius: 3px;
+    height: 25px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+    
+}
+
+.signup > p> a {
+    text-decoration: none;
+    color: dodgerblue;
+
+}
+.btn-log{
+    width: 265px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5px;
+    background-color: dodgerblue;
+    border-style: unset;
+    border-radius: 5px;
+}
+
+.fb > a{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+ #pass{
+     
+     font-size: 10px;
+ }
+
+
+.download{
+    display: flex;
+    margin: 7px;
+    justify-content: center;
+
+    
+    
+}
+
+.download > img{
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+
+}
